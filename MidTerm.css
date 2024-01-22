@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #010101;
+    width: 98.9vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+}
+
+.header>img {
+    border-radius: 100%;
+}
+
+.header>i {
+    color: #f0f0fb;
+}
+
+.portrait {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    width: 98.9vw;
+    height: 100vh;
+    opacity: 70%;
+}
+
+.portrait>img {
+    border-radius: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 98.9vw;
+}
+
+.txt {
+    display: flex;
+    color: #f0f0fb;
+    font-size: 32px;
+    font-weight: 300;
+    justify-content: center;
+    width: 58vw;
+    font-family: "Inter-Tight", sans-serif;
+    text-align: center;
+}
+
+.t1 {
+    color: #5a5cda;
+}
+
+.b1 {
+    border-radius: 40px;
+    padding: 24px 40px;
+    width: 62vw;
+    font-size: 20px;
+    font-family: "Inter-Tight", sans-serif;
+    background-color: #1e1e1e;
+    border: none;
+    color: #f0f0fb;
+    margin-top: 15vh;
+}
+
+.b1>i {
+    color: #f9c23c;
+}
+
+.t2 {
+    text-decoration: underline;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 15vh;
+    width: 98.9vw;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 10vh;
+    width: 98.9vw;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    width: 98.9vw;
+    margin-top: 45vh;
+}
+
+.txt2 {
+    display: flex;
+    color: #f0f0fb;
+    font-size: 128px;
+    font-weight: 300;
+    justify-content: center;
+    width: 58vw;
+    font-family: "Inter-Tight", sans-serif;
+    text-align: center;
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 98.9vw;
+    margin-top: 37vh;
+}
+
+.container6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30vh;
+    width: 98.9vw;
+}
+
+.biker {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 95vw;
+    height: 65vh;
+    background-color: #151515;
+    border-radius: 20px;
+    color: #f0f0fb;
+}
+
+.d1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 47.5vw;
+}
+
+.logo {
+    display: flex;
+    margin-bottom: 7vh;
+}
+
+.heading {
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 5vh;
+}
+
+.text {
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    width: 35vw;
+    margin-bottom: 3vh;
+}
+
+.preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a5cda;
+    color: #f0f0fb;
+    font-size: 16px;
+    font-weight: 300;
+    width: 17vw;
+    padding: 16px 40px;
+    border-radius: 30px;
+    border: none;
+    height: 8vh;
+}
+
+.preview>button {
+
+}
+
+.d2 {
+    display: flex;
+    width: 50%;
+}
+
+.txt2 {
+    display: flex;
+    align-items: center;
+    width: 95vw;
+    color: #f0f0fb;
+    font-size: 96px;
+    font-weight: 300;
+}
+
+.txt2>span {
+    background: linear-gradient(90deg, #a357f7, #3d81f6);
+    color: transparent;
+}
+
+.container3>button {
+    font-size: 16px;
+    padding: 16px 40px;
+    background-color: #010101;
+    border: 2px solid #f0f0fb;
+    color: #f0f0fb;
+    border-radius: 30px;
+}
+
+.txt3 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+    font-size: 18px;
+    color: #f0f0fb;
+}
+
+.txt3>p {
+    display: flex;
+}
+
+hr {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 95vw;
+    border: 0.5px solid #252525;
+}
+
+.container7 {
+    display: flex;
+    width: 95vw;
+    justify-content: space-between;
+    color: #949494;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10vh;
+}
+
+.container7>button {
+    background-image: linear-gradient(90deg, #a357f7, #3d81f6);
+    color: #f0f0fb;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 10px;
+}
